@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+ul {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+li:last-child {
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+.product {
+  font-size: 16px;
+  width: 825px;
+  margin: 50px auto;
+  border: 4px solid black;
+  position: relative;
+}
+.product-title {
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(245, 228, 228, 0.87);
+  padding: 15px;
+}
+.price {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.sale {
+  background-color: red;
+  color: aliceblue;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+  letter-spacing: 2px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+  color: green;
+}
+
+.color {
+  background-color: #000;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.color-blue {
+  background-color: rgba(7, 97, 243, 0.568);
+}
+.color-red {
+  background-color: rgba(248, 2, 2, 0.568);
+}
+.color-yellow {
+  background-color: rgba(250, 225, 0, 0.568);
+}
+.color-green {
+  background-color: rgba(0, 255, 13, 0.568);
+}
+.color-brown {
+  background-color: rgba(241, 137, 0, 0.685);
+}
+
+/* Product Details */
+.details-title {
+  font-weight: bold;
+}
+
+.details-list {
+  list-style: square;
+}
+button {
+  width: 200px;
+  height: 50px;
+}
+
+.add-cart {
+  background-color: black;
+  color: white;
+  border: 0 white solid;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+}
+.add-cart:hover {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-top: 4px black solid;
+}
